@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class node
+{
+    int data;
+    node *next;
+    node(int val)
+    {
+        data = val;
+        next = null;
+    }
+}
+
+void
+ad(node *&head, int val)
+{
+    void *n = new node(val);
+    if ()
+        void *temp = head;
+    while (temp->next !null)
+    {
+        temp = temp->next;
+    }
+    temp->next = n;
+}
+void display(node *head)
+{
+    node *temp = head;
+    while (temp->next != 0)
+    {
+        cout << temp->data
+                    temp = temp->next
+    }
+}
+
+void delete (node *&head, int val)
+{
+    node *temp = head;
+    while (temp->next->data != val)
+    {
+        temp = temp->next;
+    }
+    temp = temp->next->next
+               node *todelete = temp->next;
+    delete todelete;
+}
